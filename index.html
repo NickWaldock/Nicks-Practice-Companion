@@ -13,34 +13,41 @@
 
 <body>
     <!-- Nav -->
-    <nav class="navbar-light navbar-expand-sm bg-light">
-        <a href="/" class="navbar-brand">NPC</a>
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#burgermenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="burgermenu">
-            <ul class="navbar-nav">
-                <li class="nav-item mr-2">
-                    <a href="/" class="nav-link">Home</a>
+    <nav class="navbar navbar-dark navbar-expand-sm bg-dark">
+        <a href="/" class="navbar-brand">
+            NPC</a>
+
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mr-auto">
+                <li class="active nav-item mr-2">
+                    <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item mr-2">
-                    <a href="/" class="nav-link">Features</a>
+                    <a class="nav-link" href="">About</a>
                 </li>
                 <li class="nav-item mr-2">
-                    <a href="/" class="nav-link">Log in / Sign Up</a>
+                    <a class="nav-link" href="">Features</a>
+                </li>
+                </li>
+                <li class="nav-item mr-2 d-block d-sm-none">
+                    <a class="nav-link" href="">Sign In / Sign Up</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <!-- Jumbotron -->
-    <div class="container">
+    <div class="container text-center mt-2">
         <div class="jumbotron jumbotron-fluid">
             <h2>Welcome to Nick's Practice Companion!</h2>
             <p class="lead">Your dedicated practice companion tool for developing skills</p>
             <hr class="my-4">
-            <p>Check out the features of this tool</p>
-            <a class="btn btn-primary" href="#" role="button">Learn more</a>
+            <p>Sign up <strong><em>for free</em></strong> to start your journey to better practice</p>
+            <a class="btn btn-primary btn-lg mx-auto" href="#" role="button">Sign Up</a>
         </div>
     </div>
 
